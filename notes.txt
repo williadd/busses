@@ -1,0 +1,18 @@
+- a bus has a capacity
+- a bus is on a route
+- a route has a current know stop and a second unknown stop
+- a bus visits a bus stop
+- a stop is visited by a bus
+- a bus carries passengers on a route to a destination
+- there is 3 types of passengers: regular, wheelchair, scooter
+- a bus may have riders when it gets to a stop to pick up more people
+- a bus will likely wait at some stops for a few minutes, like a park
+- some stops may be multiple stops, like multi-stop resorts
+- there is an observer that knows about the queues at all stops
+- parks open and close at different times, there is time before and after parks close that busses will run
+- some routes are fixed, busses just travel on a loop on the route
+- wait time should be no more than ~20 minutes
+- riders who have to wait after a bus is full should be moved up in priority
+- riders should have a board to alert them to projected arrival time of bus
+- busses can be added, but there is overhead associated with them
+- a route has point to point connections, wihch have an average travel time (probably based on time of day)
